@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phương Diệp’s Portfolio – Business Analyst Intern</title>
+  <meta name="description" content="Portfolio của Nguyễn Trần Phương Diệp – sinh viên năm 4 ngành Hệ thống thông tin quản lý (MIS), định hướng Business Analyst.">
+  <meta name="theme-color" content="#f8f8ef">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;0,800;0,900;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M2 8q0-3 3-3h8l3 3h11q3 0 3 3v14q0 3-3 3H5q-3 0-3-3z' fill='%2336a9e1'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#about">Bỏ qua điều hướng</a>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#intro" aria-label="Phương Diệp’s Portfolio – về đầu trang">
+        <span>PHƯƠNG DIỆP’S</span><span class="nav__brand-sub">PORTFOLIO</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Mở menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav__menu" id="navMenu" aria-label="Điều hướng chính">
+        <ul>
+          <li><a href="#intro" data-link="intro">Giới thiệu</a></li>
+          <li><a href="#about" data-link="about">Về tôi</a></li>
+          <li><a href="#skills" data-link="skills">Kỹ năng</a></li>
+          <li><a href="#projects" data-link="projects">Dự án</a></li>
+          <li><a href="#contact" data-link="contact">Liên hệ</a></li>
+        </ul>
+        <a class="btn btn--pill" href="assets/Nguyen-Tran-Phuong-Diep-CV.pdf" download>Tải CV (PDF)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- A. HERO -->
+    <section class="hero" id="intro" aria-labelledby="heroTitle">
+      <h1 class="hero__word" id="heroTitle" aria-label="Portfolio">
+        <span class="hero__word-inner" aria-hidden="true"></span>
+      </h1>
+
+      <div class="hero__stage" data-parallax-root>
+        <svg class="folder" viewBox="0 0 900 520" role="img" aria-label="Biểu tượng thư mục portfolio với con trỏ chuột" data-depth="0.02">
+          <!-- back panel with tab -->
+          <path d="M28 40 Q28 0 68 0 H236 Q276 0 276 40 V58 H836 Q872 58 872 94 V470 H28 Z" fill="#1d71b8"/>
+          <path d="M60 470 V152 H840 V470 Z" fill="#e1e2d3"/>
+          <rect x="60" y="98" width="780" height="76" fill="#fffff0"/>
+          <rect x="28" y="170" width="32" height="60" fill="#1a63a3" opacity=".7"/>
+          <rect x="840" y="170" width="32" height="60" fill="#1a63a3" opacity=".7"/>
+          <!-- front panel -->
+          <path d="M0 220 Q0 176 44 176 H836 Q900 176 900 232 L868 520 H32 Z" fill="#36a9e1"/>
+          <!-- cursor -->
+          <g class="folder__cursor">
+            <path d="M0 22 L66 0 Q76 -3 72 8 L52 74 Q49 82 44 74 L33 40 Q31 35 26 33 L-4 26 Q-8 24 0 22 Z" fill="#fffff0" transform="translate(600 196) rotate(8)"/>
+          </g>
+        </svg>
+
+        <div class="sticker sticker--name" data-depth="0.05">
+          <span>Nguyễn Trần</span><span>Phương Diệp</span>
+        </div>
+        <div class="sticker sticker--role" data-depth="-0.04">
+          <span>Business Analyst</span><span>Intern</span>
+        </div>
+        <span class="hero__year">20(26)</span>
+      </div>
+
+      <div class="hero__foot">
+        <p class="hero__tagline">Định hướng phát triển trong lĩnh vực Business Analysis.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#about">Khám phá portfolio</a>
+          <a class="btn btn--ghost" href="assets/Nguyen-Tran-Phuong-Diep-CV.pdf" download>Tải CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- B + C. ABOUT, EDUCATION, CERTIFICATIONS -->
+    <section class="about" id="about" aria-labelledby="aboutTitle">
+      <div class="about__grid">
+        <div class="about__left">
+          <h2 class="about__name" id="aboutTitle" data-reveal>PHƯƠNG DIỆP</h2>
+          <p class="about__role" data-reveal>BUSINESS ANALYST INTERN</p>
+
+          <figure class="polaroid-stack" data-reveal>
+            <div class="blob blob--dark" data-depth="0.03"></div>
+            <div class="blob blob--light" data-depth="0.05"></div>
+            <div class="polaroid polaroid--back" aria-hidden="true"></div>
+            <div class="polaroid polaroid--front">
+              <img src="assets/portrait.jpg" width="900" height="860" alt="Chân dung Nguyễn Trần Phương Diệp" loading="lazy" decoding="async">
+            </div>
+            <figcaption class="sticker sticker--place">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#fffff0"/><path d="M12 5.5a4.6 4.6 0 0 0-4.6 4.6c0 3.4 4.6 8.4 4.6 8.4s4.6-5 4.6-8.4A4.6 4.6 0 0 0 12 5.5Zm0 6.4a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6Z" fill="#002e54"/></svg>
+              Hà Nội, Việt Nam
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="about__right">
+          <p class="about__intro" data-reveal>
+            Là sinh viên năm 4 chuyên ngành Hệ thống thông tin quản lý (MIS), em định hướng phát triển trong lĩnh vực Business Analysis. Em có nền tảng về thu thập, phân tích yêu cầu và mô hình hóa quy trình, dữ liệu, mong muốn vận dụng kiến thức để xây dựng giải pháp phù hợp và tạo ra giá trị cho doanh nghiệp.
+          </p>
+
+          <div class="info">
+            <section class="block" aria-labelledby="eduTitle" data-reveal>
+              <h3 class="block__title" id="eduTitle">HỌC VẤN</h3>
+              <dl class="rows">
+                <div class="row">
+                  <dt>2023 – 2027</dt>
+                  <dd>
+                    <strong>Học viện Ngân hàng</strong>
+                    <span>Hệ thống thông tin quản lí (MIS) – GPA: 3.72/4</span>
+                  </dd>
+                </div>
+              </dl>
+            </section>
+
+            <section class="block" aria-labelledby="certTitle" data-reveal>
+              <h3 class="block__title" id="certTitle">CHỨNG CHỈ</h3>
+              <dl class="rows">
+                <div class="row">
+                  <dt>TOEIC</dt>
+                  <dd>
+                    <strong>IIG Việt Nam</strong>
+                    <span>Listening &amp; Reading: 800 &nbsp;|&nbsp; Speaking &amp; Writing: 300</span>
+                  </dd>
+                </div>
+                <div class="row">
+                  <dt>MOS</dt>
+                  <dd>
+                    <strong>IIG Việt Nam</strong>
+                    <span>Word, Excel, PowerPoint (970+/1000)</span>
+                  </dd>
+                </div>
+              </dl>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- D. SKILLS -->
+    <section class="skills" id="skills" aria-labelledby="skillsTitle">
+      <div class="wrap">
+        <h2 class="block__title block__title--lg" id="skillsTitle" data-reveal>KĨ NĂNG CHUYÊN MÔN</h2>
+        <ul class="tags" id="skillTags" data-reveal></ul>
+      </div>
+    </section>
+
+    <!-- E. PROJECTS -->
+    <section class="projects" id="projects" aria-labelledby="projectsTitle">
+      <div class="wrap">
+        <h2 class="block__title block__title--lg" id="projectsTitle" data-reveal>DỰ ÁN</h2>
+        <div class="projects__grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <!-- F. CONTACT -->
+    <section class="contact" id="contact" aria-labelledby="contactTitle">
+      <div class="wrap contact__wrap">
+        <h2 class="contact__title" id="contactTitle" data-reveal>Cùng trao đổi nhé.</h2>
+        <p class="contact__lead" data-reveal>Em là sinh viên MIS định hướng Business Analysis. Mời anh/chị xem CV đầy đủ để hiểu thêm về em.</p>
+        <ul class="contact__list" id="contactList" data-reveal></ul>
+        <a class="btn btn--solid btn--lg" href="assets/Nguyen-Tran-Phuong-Diep-CV.pdf" download data-reveal>Tải CV (PDF)</a>
+      </div>
+      <footer class="footer">
+        <span>Phương Diệp’s Portfolio</span>
+        <span>20(26)</span>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Project modal -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <article class="modal__panel" id="modalPanel" tabindex="-1">
+      <button class="modal__close" data-close aria-label="Đóng chi tiết dự án">×</button>
+      <div id="modalBody"></div>
+    </article>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
